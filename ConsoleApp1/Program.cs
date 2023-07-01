@@ -82,6 +82,27 @@
 // }
 using System.Globalization;
 
+
+// Set the current culture to Turkish
+// CultureInfo.CurrentCulture = new CultureInfo("tr-TR");
+// CultureInfo.CurrentCulture = new CultureInfo("en-AU");
+CultureInfo.CurrentCulture = new CultureInfo("zh-CN");
+
+string[] strings = new string[] { "i", "I", "ı", "İ" };
+
+// Sort using Ordinal comparison
+Array.Sort(strings, StringComparer.Ordinal);
+Console.WriteLine("Ordinal sort: " + string.Join(", ", strings));
+Display(strings.ToList(), "");
+// Sort using CurrentCulture comparison
+Array.Sort(strings, StringComparer.CurrentCulture);
+Console.WriteLine("CurrentCulture sort2: " + string.Join(", ", strings));
+Display(strings.ToList(), "");
+
+
+
+
+Console.WriteLine("===================================");
 List<string> list = new();
 
 string str1 = "é";
