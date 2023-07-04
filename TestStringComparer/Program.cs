@@ -88,7 +88,8 @@ using System.Globalization;
 // CultureInfo.CurrentCulture = new CultureInfo("en-AU");
 CultureInfo.CurrentCulture = new CultureInfo("zh-CN");
 
-string[] strings = new string[] { "i", "I", "ı", "İ" };
+// string[] strings = new string[] { "i", "I", "ı", "İ" };
+string[] strings = new string[] { "0", "10", "9" };
 
 // Sort using Ordinal comparison
 Array.Sort(strings, StringComparer.Ordinal);
@@ -185,7 +186,7 @@ Console.WriteLine(str1);
          {
              c = s[0];
              codePoint = Convert.ToInt32(c);
-             Console.WriteLine("0x{0:x} " + c, codePoint); 
+             Console.Write( c + " == 0x{0:x} ,", codePoint); 
          }
          Console.WriteLine();
      }
