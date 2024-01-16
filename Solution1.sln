@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStringComparer", "TestStringComparer\TestStringComparer.csproj", "{FD1B02E1-7EF7-40A2-896B-1AAFD00DD508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRobotInterfaceProtoFiles", "TestRobotInterfaceProtoFiles\TestRobotInterfaceProtoFiles.csproj", "{A025EE27-72D0-4490-A5F6-1204848C52BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStringIntern", "TestStringIntern\TestStringIntern.csproj", "{E08FA4D5-8DA4-4AA4-922D-8BF710D8B448}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{FD1B02E1-7EF7-40A2-896B-1AAFD00DD508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD1B02E1-7EF7-40A2-896B-1AAFD00DD508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD1B02E1-7EF7-40A2-896B-1AAFD00DD508}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A025EE27-72D0-4490-A5F6-1204848C52BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A025EE27-72D0-4490-A5F6-1204848C52BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A025EE27-72D0-4490-A5F6-1204848C52BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A025EE27-72D0-4490-A5F6-1204848C52BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08FA4D5-8DA4-4AA4-922D-8BF710D8B448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08FA4D5-8DA4-4AA4-922D-8BF710D8B448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08FA4D5-8DA4-4AA4-922D-8BF710D8B448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08FA4D5-8DA4-4AA4-922D-8BF710D8B448}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
